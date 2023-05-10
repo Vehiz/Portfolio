@@ -10,7 +10,7 @@ import firebase from '../assets/firebase.png'
 import Tailwind from '../assets/tailwind.png'
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
-import TYPESCRIPT from '../assets/typescript.png'
+import typescript from '../assets/typescript.png'
 
 const Skills = () => {
   return (
@@ -32,7 +32,7 @@ const Skills = () => {
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={javascript} alt='HTML icon'/>
-                <p className='my-4'>javascript</p>
+                <p className='my-4'>JAVASCRIPT</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactImg} alt='HTML icon'/>
@@ -43,7 +43,7 @@ const Skills = () => {
                 <p className='my-4'>GITHUB</p>
             </div><div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Node} alt='HTML icon'/>
-                <p className='my-4'>Node</p>
+                <p className='my-4'>NODE</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Mongo} alt='HTML icon'/>
@@ -53,16 +53,16 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={Aws} alt='HTML icon'/>
                 <p className='my-4'>AWS</p>
             </div>
-            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+            {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={firebase} alt='HTML icon'/>
                 <p className='my-4'>FIREBASE</p>
-            </div>
+            </div> */}
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Tailwind} alt='HTML icon'/>
                 <p className='my-4'>TAILWIND</p>
             </div>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={TYPESCRIPT} alt='HTML icon'/>
+                <img className='w-20 mx-auto' src={typescript} alt='HTML icon'/>
                 <p className='my-4'>TYPESCRIPT</p>
             </div>
         </div>
