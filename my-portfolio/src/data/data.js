@@ -1,6 +1,7 @@
 import foodApp from '../assets/projects/foodApp.jpeg'
 import swiftRider from '../assets/projects/swiftRider.png'
 import brainiacAI from '../assets/projects/brainiacAI.png'
+import gameHub from '../assets/projects/gameHub.png'
 
 export const data = [
     {
@@ -27,7 +28,7 @@ export const data = [
     {
         id:4,
         name:"Game Hub",
-        image:"",
+        image:gameHub,
         live:"https://game-hub-ten-teal.vercel.app/"
     }
 ]
