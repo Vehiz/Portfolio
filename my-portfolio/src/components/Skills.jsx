@@ -10,6 +10,7 @@ import firebase from '../assets/firebase.png'
 import Tailwind from '../assets/tailwind.png'
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
+import TYPESCRIPT from '../assets/typescript.png'
 
 const Skills = () => {
   return (
@@ -59,6 +60,10 @@ const Skills = () => {
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Tailwind} alt='HTML icon'/>
                 <p className='my-4'>TAILWIND</p>
+            </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={TYPESCRIPT} alt='HTML icon'/>
+                <p className='my-4'>TYPESCRIPT</p>
             </div>
         </div>
         </div>   
