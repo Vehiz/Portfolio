@@ -18,12 +18,16 @@ export const data = [
         live:"https://swift-rider.netlify.app", 
     },
     {
-        id:2,
+        id:3,
         name:"Brainiac",
         image:brainiacAI,
         github:"",
         live:"https://brainiac-ai.vercel.app/"
-        
-
+    },
+    {
+        id:4,
+        name:"Game Hub",
+        image:"",
+        live:"https://game-hub-ten-teal.vercel.app/"
     }
 ]
